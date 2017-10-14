@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get(
-    "/:quotes_to_display",
+    ["/", "/:quotes_to_display"],
     (request, response) => {
         let quotes_to_display = parseInt(request.params.quotes_to_display)
         if (isNaN(quotes_to_display)) quotes_to_display = 10
