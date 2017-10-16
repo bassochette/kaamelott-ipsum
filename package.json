@@ -2,12 +2,16 @@
   "name": "lorem-kaamelottsum",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
   },
-  "author": "",
-  "license": "ISC",
+  "bin": {
+    "lorem-kaamelottsum": "cli.js"
+  },
+  "author": "Julien Prugne",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.2"
   },
