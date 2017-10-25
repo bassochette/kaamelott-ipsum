@@ -1,12 +1,12 @@
 {
   "name": "lorem-kaamelottsum",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Kaamelott quote tool",
   "repository": {
     "type": "git",
     "url": "https://github.com/bassochette/kaamelott-ipsum"
   },
-  "author": "Julien Prugne <julien.prugne@gmail.com>",
+  "author": "Julien Prugne",
   "main": "cli.js",
   "scripts": {
     "patch-release": "npm version patch && npm publish && git push --follow-tags"
@@ -15,8 +15,10 @@
     "lorem-kaamelottsum": "cli.js"
   },
   "man": "./man/doc.1",
-  "keywords": ["lorem ipsum", "kaamelott"],
-  "author": "Julien Prugne",
+  "keywords": [
+    "lorem ipsum",
+    "kaamelott"
+  ],
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.2"
