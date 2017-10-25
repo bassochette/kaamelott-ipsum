@@ -2,14 +2,14 @@
   "name": "lorem-kaamelottsum",
   "version": "1.0.3",
   "description": "",
-  "main": "server.js",
+  "main": "cli.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "patch-release": "npm version patch && npm publish && git push --follow-tags"
   },
   "bin": {
     "lorem-kaamelottsum": "cli.js"
   },
+  "keywords": ["lorem ipsum", "kaamelott"],
   "author": "Julien Prugne",
   "license": "MIT",
   "dependencies": {

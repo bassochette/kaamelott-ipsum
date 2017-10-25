@@ -6,13 +6,14 @@
 npm install -g lorem-kaamelottsum
 ```
 
-Support only Mac OSX
-
 ## Usage
 
 ```
 lorem-kaamelottsum [number of quotes]
 ```
+
+Display one quotes from the glorious Kaamelott tv show
+copy displayed quotes to clipboard (OSX only)
 
 ## Thanks
 
